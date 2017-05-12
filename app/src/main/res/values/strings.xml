@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LetsChat</string>
+    <string name="desc"> \nHello this is a cloud based firebase chat application. This is a single group chat app in which multiple users can log in and communicate to other group members
+        . Till now only text messaging is allowed.\n</string>
+    <string name="names">Aman Gautam \nBETN1CS15011\nJateen Sharda\nBETN1CS15046\nMayank Gole \nBETN1CS15058</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">b07ec18e705209023d64e31752cd2576</string>
+    <string name="FACEBOOK_APP_ID">118768338658672</string>
+    <string name="com_accountkit_button_send_code_in_fb_disclosure">send</string>
+
+    <string name="title_activity_log_in">Log_in</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="ak_login_protocol_scheme">ak118768338658672</string>
+</resources>

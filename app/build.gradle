@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.onedreamers.letschat"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 1
+        versionName "2.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //compile 'com.firebase:firebase-client-android:2.3.1'
+
+    // compile 'com.firebaseui:firebase-ui:10.2.0'
+    // compile
+    compile 'com.facebook.android:account-kit-sdk:4.+'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.google.android.gms:play-services:10.2.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.1'
+    compile 'com.google.firebase:firebase-core:9.6.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.firebaseui:firebase-ui:0.6.2'
+    compile 'com.firebase:firebase-jobdispatcher-with-gcm-dep:0.5.2'
+    compile 'com.google.firebase:firebase-messaging:10.2.0'
+    compile 'com.android.support:support-v4:25.3.1'
+    testCompile 'junit:junit:4.12'
+}
+
+
+
+
+apply plugin: 'com.google.gms.google-services'
