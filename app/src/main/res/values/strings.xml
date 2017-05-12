@@ -2,7 +2,7 @@
     <string name="app_name">LetsChat</string>
     <string name="desc"> \nHello this is a cloud based firebase chat application. This is a single group chat app in which multiple users can log in and communicate to other group members
         . Till now only text messaging is allowed.\n</string>
-    <string name="names">Aman Gautam \nBETN1CS15011\nJateen Sharda\nBETN1CS15046\nMayank Gole \nBETN1CS15058</string>
+    <string name="names">Aman Gautam </string>
     <string name="open">open</string>
     <string name="close">close</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">b07ec18e705209023d64e31752cd2576</string>
